@@ -20,9 +20,9 @@ node --version # Should output something like v24.1.0
 
 If you don’t have Node, [download the latest version](https://nodejs.org/en/download) before proceeding.
 
-**Your task:** There are some issues with the codebase and he would like you to add unit tests for the `calculateTotal` function. You have 5 minutes to ship this.
+**Your task:** There are some issues with the codebase and he would like you to add unit tests for the calculateTotal function. You have 5 minutes to ship this.
 
-Open `src/cart.js`. This module handles shopping cart calculations for an e-commerce app. Use whatever tools and workflow you normally use. ChatGPT, Copilot, manual writing—whatever gets the job done.
+Open src/cart.js. This module handles shopping cart calculations for an e-commerce app. Use whatever tools and workflow you normally use. ChatGPT, Copilot, manual writing—whatever gets the job done.
 
 *Timer starts now.*
 
@@ -43,7 +43,7 @@ For many developers, the process looks something like this:
 5. Run the tests. They fail because of an import path issue.  
 6. Copy the error back to ChatGPT  
 7. Get a fix, copy it back  
-8. Tests still fail. The mock is wrong because ChatGPT didn't see the actual `taxRates.js` module.  
+8. Tests still fail. The mock is wrong because ChatGPT didn't see the actual taxRates.js module.  
 9. Copy the dependency file...  
 10. Repeat until it works
 
@@ -130,14 +130,6 @@ Claude Code is the right choice when the task requires reading existing code, ma
 
 3. Why does context accumulation matter for multi-step tasks?
 
-### **Answers**
-
-1. Suggestion tools show you code to copy and apply manually. Agentic tools take actions directly in your environment: reading files, writing changes, running commands.
-
-2. Any two of: reading files directly, writing/editing files, running shell commands, seeing command output, iterating without you relaying information.
-
-3. Context accumulates across exchanges. You don't re-explain your codebase, patterns, or constraints. Each instruction builds on previous understanding, making multi-step tasks faster and more consistent.
-
 ---
 
 ## **Summary**
@@ -150,10 +142,10 @@ In the next module, you'll install Claude Code and use it to make your first cha
 
 [image2]: /content/lesson-1/images/module-1-student-image2.png
 
-[image3]: /content/lesson-1/images/module-1-student-image3.png
+[image3]: /content/lesson-1/images/module-1-student-image3.gif
 
-[image4]: /content/lesson-1/images/module-1-student-image4.png
+[image4]: /content/lesson-1/images/module-1-student-image4.gif
 
-[image5]: /content/lesson-1/images/module-1-student-image5.png
+[image5]: /content/lesson-1/images/module-1-student-image5.gif
 
-[image6]: /content/lesson-1/images/module-1-student-image6.png
+[image6]: /content/lesson-1/images/module-1-student-image6.gif

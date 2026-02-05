@@ -58,7 +58,7 @@ Before building anything, get oriented with these commands.
 
 ### **Check Claude Code can see your project**
 
-Navigate to the `L1-M1-Build-Tests` directory from the last section:
+Navigate to the L1-M1-Build-Tests directory from the last section:
 
 ```shell
 cd claude-code-starter
@@ -77,7 +77,7 @@ Before building anything, get oriented with these commands.
 
 ### **Check Claude Code can see your project**
 
-Navigate to the `L1-M1-Build-Tests` directory from the last section:
+Navigate to the L1-M1-Build-Tests directory from the last section:
 
 ```shell
 cd claude-code-starter
@@ -114,15 +114,15 @@ Claude Code will execute the test suite and show you the results.
 
 | Command | What it does |
 | :---- | :---- |
-| `/help` | List available slash commands |
-| `/clear` | Clear conversation history and free up context |
-| `/cost` | Show token usage for the current session |
-| `/compact` | Summarize conversation to reduce context size |
-| `/model` | Switch between available models |
-| `Ctrl+C` | Cancel current operation |
-| `Esc` | Exit Claude Code |
+| /help | List available slash commands |
+| /clear | Clear conversation history and free up context |
+| /cost | Show token usage for the current session |
+| /compact | Summarize conversation to reduce context size |
+| /model | Switch between available models |
+| Ctrl+C | Cancel current operation |
+| Esc | Exit Claude Code |
 
-You don't need to memorize these. Use `/help` when you need a refresher.
+You don't need to memorize these. Use /help when you need a refresher.
 
 ### **Verify Claude Code can read file contents**
 
@@ -144,21 +144,21 @@ Claude Code will execute the test suite and show you the results.
 
 | Command | What it does |
 | :---- | :---- |
-| `/help` | List available slash commands |
-| `/clear` | Clear conversation history and free up context |
-| `/cost` | Show token usage for the current session |
-| `/compact` | Summarize conversation to reduce context size |
-| `/model` | Switch between available models |
-| `Ctrl+C` | Cancel current operation |
-| `Esc` | Exit Claude Code |
+| /help | List available slash commands |
+| /clear | Clear conversation history and free up context |
+| /cost | Show token usage for the current session |
+| /compact | Summarize conversation to reduce context size |
+| /model | Switch between available models |
+| Ctrl+C | Cancel current operation |
+| Esc | Exit Claude Code |
 
-You don't need to memorize these. Use `/help` when you need a refresher.
+You don't need to memorize these. Use /help when you need a refresher.
 
 ## **Complete What You Started**
 
-In M1, you tried to add unit tests to `src/cart.js` using your usual tools. Now do it with Claude Code. 
+In M1, you tried to add unit tests to src/cart.js using your usual tools. Now do it with Claude Code. 
 
-Make sure you're in the `L1-M1-Build-Tests` directory with Claude Code running:
+Make sure you're in the L1-M1-Build-Tests directory with Claude Code running:
 
 ```shell
 cd L1-M1-Build-Tests 
@@ -184,7 +184,7 @@ You should see something similar to what we saw in the demo from the last sectio
 
 As Claude Code works, notice:
 
-1. **It reads dependencies automatically.** You didn't tell it about `taxRates.js` or `discounts.js`. It found them by reading the imports.  
+1. **It reads dependencies automatically.** You didn't tell it about taxRates.js or discounts.js. It found them by reading the imports.  
 2. **It runs the tests itself.** No copy-paste of results back and forth.  
 3. **It iterates on failures.** If a test fails, it reads the error and fixes the issue.  
 4. **It asks permission for actions.** Claude Code will ask before writing files or running commands. You can approve individually or allow for the session.
@@ -195,7 +195,7 @@ Claude Code will ask permission for certain actions:
 
 ![][image3]
 
-For this exercise, type `a` to allow all. In real work, you'll develop judgment about when to review each action versus allowing Claude Code to proceed.
+For this exercise, type a to allow all. In real work, you'll develop judgment about when to review each action versus allowing Claude Code to proceed.
 
 ## **Verify Your Quick Win**
 
@@ -250,8 +250,8 @@ As Claude Code works on your code, pay attention to:
 Claude Code will make mistakes. When it does:
 
 * **Guide it:** Describe what's wrong and what you want instead  
-* **Undo:** Use git to revert changes (`git checkout -- .` or `git stash`)  
-* **Start fresh:** Use `/clear` and try a different approach
+* **Undo:** Use git to revert changes (git checkout -- . or git stash)  
+* **Start fresh:** Use /clear and try a different approach
 
 The goal isn't perfection on the first try. The goal is to experience the iterate-and-correct workflow that makes Claude Code effective.
 
@@ -281,21 +281,11 @@ For API outages or service issues, check [status.anthropic.com](https://status.a
 
 1. What command starts Claude Code in your terminal?
 
-2. What does the `/clear` command do, and when would you use it?
+2. What does the /clear command do, and when would you use it?
 
 3. During your Quick Win, did Claude Code read any files you didn't explicitly mention? Which ones and why?
 
 4. What task did you complete on your own codebase? What did you observe about how Claude Code approached it?
-
-### **Answers**
-
-1. `claude` — Run this from any project directory.
-
-2. `/clear` clears conversation history and frees up context. Use it when starting a new task unrelated to your previous conversation, or when Claude Code seems confused by old context.
-
-3. Yes. Claude Code read `taxRates.js` and `discounts.js` because `cart.js` imports them. Understanding the dependencies was necessary to write accurate tests with correct mock values.
-
-4. Answers will vary. Key observations might include: Claude Code read related files to understand context, ran commands to verify its work, or iterated when something didn't work the first time.
 
 ## **Summary**
 
@@ -313,6 +303,6 @@ In the next module, you'll learn how Claude Code builds context and how to scope
 
 [image1]: /content/lesson-1/images/module-2-student-image1.png
 
-[image2]: /content/lesson-1/images/module-2-student-image2.png
+[image2]: /content/lesson-1/images/module-2-student-image2.gif
 
 [image3]: /content/lesson-1/images/module-2-student-image3.png

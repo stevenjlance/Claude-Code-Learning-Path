@@ -4,22 +4,22 @@
 
 /* Hero */
 .philosophy-hero {
-  background: linear-gradient(135deg, #1a1a2e 0%, #1e1e32 100%);
+  background: var(--bg-secondary);
   padding: 5rem 2rem;
   text-align: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .philosophy-hero h1 {
-  font-size: 3rem;
+  font-size: 3.25rem;
   font-weight: 800;
-  color: #fff;
+  color: var(--text-primary);
   margin: 0 0 0.75rem 0;
 }
 
 .philosophy-hero p {
-  font-size: 1.25rem;
-  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.3rem;
+  color: var(--text-muted);
   margin: 0;
 }
 
@@ -38,24 +38,24 @@
 }
 
 .philosophy-section h2 {
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--text-primary);
   margin: 0 0 1.5rem 0;
 }
 
 .philosophy-text {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   line-height: 1.8;
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--text-secondary);
   margin: 0 0 1.5rem 0;
 }
 
 /* Persona Card */
 .persona-card {
-  background: linear-gradient(145deg, #1e1e32 0%, #1a1a2e 100%);
-  border: 1px solid rgba(212, 165, 116, 0.2);
-  border-left: 4px solid #d4a574;
+  background: var(--bg-card);
+  border: 1px solid rgba(217, 119, 87, 0.2);
+  border-left: 4px solid var(--accent);
   border-radius: 12px;
   padding: 2rem;
   margin-bottom: 1.5rem;
@@ -67,15 +67,15 @@
   top: 0.5rem;
   left: 1rem;
   font-size: 4rem;
-  color: rgba(212, 165, 116, 0.2);
+  color: rgba(217, 119, 87, 0.15);
   font-family: Georgia, serif;
   line-height: 1;
 }
 
 .persona-card p {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   line-height: 1.8;
-  color: rgba(255, 255, 255, 0.85);
+  color: var(--text-secondary);
   margin: 0;
   font-style: italic;
   position: relative;
@@ -83,7 +83,7 @@
 }
 
 .persona-card strong {
-  color: #d4a574;
+  color: var(--accent-deep);
   font-style: normal;
 }
 
@@ -95,16 +95,17 @@
 }
 
 .principle-card {
-  background: linear-gradient(145deg, #1e1e32 0%, #1a1a2e 100%);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
   border-radius: 12px;
   padding: 1.75rem;
   transition: all 0.3s ease;
 }
 
 .principle-card:hover {
-  border-color: rgba(212, 165, 116, 0.3);
+  border-color: var(--border-hover);
   transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(20, 20, 19, 0.08);
 }
 
 .principle-icon {
@@ -113,24 +114,24 @@
 }
 
 .principle-card h3 {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 600;
-  color: #fff;
+  color: var(--text-primary);
   margin: 0 0 0.75rem 0;
   line-height: 1.4;
 }
 
 .principle-card p {
-  font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.05rem;
+  color: var(--text-muted);
   line-height: 1.6;
   margin: 0;
 }
 
 /* Artifacts Table */
 .artifacts-table {
-  background: linear-gradient(145deg, #1e1e32 0%, #1a1a2e 100%);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
   border-radius: 12px;
   overflow: hidden;
 }
@@ -139,7 +140,7 @@
   display: grid;
   grid-template-columns: 80px 1fr 1.5fr;
   padding: 1rem 1.5rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid var(--border-color);
   align-items: center;
 }
 
@@ -148,30 +149,30 @@
 }
 
 .artifact-row.header {
-  background: rgba(0, 0, 0, 0.2);
+  background: var(--bg-secondary);
 }
 
 .artifact-row.header span {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--text-faint);
 }
 
 .artifact-lesson {
   font-weight: 600;
-  color: #d4a574;
+  color: var(--accent);
 }
 
 .artifact-title {
-  color: #fff;
+  color: var(--text-primary);
   font-weight: 500;
 }
 
 .artifact-output {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 0.95rem;
+  color: var(--text-muted);
+  font-size: 1rem;
 }
 
 /* Volatility Section */
@@ -180,15 +181,15 @@
 }
 
 .volatility-section h3 {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   font-weight: 600;
-  color: #fff;
+  color: var(--text-primary);
   margin: 0 0 0.75rem 0;
 }
 
 .volatility-intro {
-  font-size: 1rem;
-  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.05rem;
+  color: var(--text-muted);
   margin: 0 0 1.5rem 0;
 }
 
@@ -199,8 +200,8 @@
 }
 
 .volatility-card {
-  background: linear-gradient(145deg, #1e1e32 0%, #1a1a2e 100%);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
   border-radius: 12px;
   padding: 1.5rem;
 }
@@ -211,7 +212,7 @@
 
 .volatility-badge {
   display: inline-block;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -220,48 +221,48 @@
 }
 
 .volatility-card.stable .volatility-badge {
-  background: rgba(16, 185, 129, 0.15);
-  color: #10b981;
+  background: rgba(48, 121, 77, 0.1);
+  color: var(--success);
 }
 
 .volatility-card.moderate .volatility-badge {
-  background: rgba(245, 158, 11, 0.15);
-  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.1);
+  color: var(--warning);
 }
 
 .volatility-card.volatile .volatility-badge {
-  background: rgba(239, 68, 68, 0.15);
-  color: #ef4444;
+  background: rgba(181, 51, 51, 0.1);
+  color: var(--danger);
 }
 
 .volatility-definition {
-  font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.05rem;
+  color: var(--text-secondary);
   margin: 0 0 0.75rem 0;
   line-height: 1.5;
 }
 
 .volatility-trigger {
-  font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.95rem;
+  color: var(--text-faint);
   margin: 0;
 }
 
 .volatility-trigger strong {
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--text-muted);
 }
 
 /* CTA */
 .philosophy-cta {
   text-align: center;
   padding: 3rem 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid var(--border-color);
 }
 
 .philosophy-cta h2 {
-  font-size: 1.75rem;
+  font-size: 1.85rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--text-primary);
   margin: 0 0 1.5rem 0;
 }
 
@@ -289,10 +290,10 @@
 
 @media (max-width: 640px) {
   .philosophy-hero h1 {
-    font-size: 2rem;
+    font-size: 2.25rem;
   }
 
   .philosophy-section h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }

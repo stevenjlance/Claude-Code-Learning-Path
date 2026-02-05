@@ -8,13 +8,40 @@
 | **Learning Goal** | Create a functional feature, fix, or utility within own codebase, evaluating outputs and iterating toward production-ready code |
 | **Core Principle** | Get out of the way. Protect build time. Facilitate demos. |
 
-| Instructor Note This is the capstone of Lesson 1\. Your role is minimal: set the challenge, unblock when needed, keep time, run demos. There is no lecture. They have the skills from M1-M3. Now they ship. |
-| :---- |
+<div class="instructor-note">
+<div class="instructor-note-header">
+<span class="instructor-note-icon">👨‍🏫</span>
+<span class="instructor-note-title">Instructor Note</span>
+</div>
+<div class="instructor-note-content">
+
+This is the capstone of Lesson 1. **Your role is minimal:** set the challenge, unblock when needed, keep time, run demos.
+
+There is no lecture. They have the skills from M1-M3. Now they ship.
+
+</div>
+</div>
 
 ## **Build Something with Claude Code**
 
-| Instructor Note ⏱ Timing: 5–7 minutes MAX Goal: Get them building as fast as possible. Say: "You've learned how Claude Code works. You've practiced on small tasks, but now comes the really fun part: build something that matters to you. You have 60 minutes to build and then we will demo what you created to the rest of the group. The only guidance is that you try to build something that you thought would be impossible to do in 1 hour prior to learning about Claude Code." Then: "Take 2 minutes to pick your project. Look at the options and starter ideas in your materials. Then we start." Circulate during these 2 minutes. Help anyone who's stuck. |
-| :---- |
+<div class="instructor-note">
+<div class="instructor-note-header">
+<span class="instructor-note-icon">👨‍🏫</span>
+<span class="instructor-note-title">Instructor Note</span>
+<span class="instructor-note-timing">⏱ 5–7 minutes MAX</span>
+</div>
+<div class="instructor-note-content">
+
+**Goal:** Get them building as fast as possible.
+
+**Say:** "You've learned how Claude Code works. You've practiced on small tasks, but now comes the really fun part: build something that matters to you. You have 60 minutes to build and then we will demo what you created to the rest of the group. The only guidance is that you try to build something that you thought would be impossible to do in 1 hour prior to learning about Claude Code."
+
+**Then:** "Take 2 minutes to pick your project. Look at the options and starter ideas in your materials. Then we start."
+
+Circulate during these 2 minutes. Help anyone who's stuck.
+
+</div>
+</div>
 
 You've learned how Claude Code works. You've practiced on small tasks, but now comes the really fun part: build something that matters to you.
 
@@ -25,8 +52,22 @@ You have 60 minutes to build and then we will demo what you created to the rest 
 
 ## **Pick Your Project**
 
-| Instructor Note Don't read through all the options. Let them read. Help individuals who are stuck. If someone can't decide, ask: "What's been annoying you lately in your code?" "What tool do you wish existed?" "What have you been putting off because it felt like too much work?" |
-| :---- |
+<div class="instructor-note">
+<div class="instructor-note-header">
+<span class="instructor-note-icon">👨‍🏫</span>
+<span class="instructor-note-title">Instructor Note</span>
+</div>
+<div class="instructor-note-content">
+
+Don't read through all the options. Let them read. Help individuals who are stuck.
+
+**If someone can't decide, ask:**
+- "What's been annoying you lately in your code?"
+- "What tool do you wish existed?"
+- "What have you been putting off because it felt like too much work?"
+
+</div>
+</div>
 
 ### **Option A: Feature in an existing codebase**
 
@@ -57,8 +98,23 @@ Attack technical debt or long-standing issues:
 
 ## **Scope It Right**
 
-| Instructor Note Watch for scope problems during the first 10 minutes of build time: Too big: "I'm going to build a full authentication system with OAuth, password reset, and 2FA" → Help them pick one piece. "What's the core? Build that first." Too vague: "I'm going to improve my code" → Push for specifics. "What specifically will be different when you're done?" Too small: "I'll just add one function" → Push for ambition. "That's M2/M3 level. What would you build if you had more time? Try that." |
-| :---- |
+<div class="instructor-note">
+<div class="instructor-note-header">
+<span class="instructor-note-icon">👨‍🏫</span>
+<span class="instructor-note-title">Instructor Note</span>
+</div>
+<div class="instructor-note-content">
+
+**Watch for scope problems during the first 10 minutes of build time:**
+
+**Too big:** "I'm going to build a full authentication system with OAuth, password reset, and 2FA" → Help them pick one piece. "What's the core? Build that first."
+
+**Too vague:** "I'm going to improve my code" → Push for specifics. "What specifically will be different when you're done?"
+
+**Too small:** "I'll just add one function" → Push for ambition. "That's M2/M3 level. What would you build if you had more time? Try that."
+
+</div>
+</div>
 
 You have 60 minutes of build time. Pick something that:
 
@@ -78,8 +134,17 @@ If you're unsure, start with something concrete and expand if time allows. A wor
 
 ## **Starter Ideas**
 
-| Instructor Note Reference material only. Don't walk through these. They're here for learners who need inspiration. |
-| :---- |
+<div class="instructor-note">
+<div class="instructor-note-header">
+<span class="instructor-note-icon">👨‍🏫</span>
+<span class="instructor-note-title">Instructor Note</span>
+</div>
+<div class="instructor-note-content">
+
+Reference material only. Don't walk through these. They're here for learners who need inspiration.
+
+</div>
+</div>
 
 Need inspiration? Here are concrete examples by category:
 
@@ -120,8 +185,40 @@ Need inspiration? Here are concrete examples by category:
 
 ## **Build**
 
-| Instructor Note ⏱ Timing: 60 minutes Start the clock: "Alright, build time starts now. I'll give time checks." Your role during build: Circulate constantly. Don't sit down. Unblock quickly. If someone is stuck for more than 3–5 minutes, intervene. Keep interventions short. Ask what's blocking them, suggest `/clear` or a different approach, move on. Don't demo for the room. Don't give tips to everyone. Let them work. Time checks (announce to room): 15 min: "You're about a quarter through. If you haven't started coding, start now." 30 min: "Halfway point. You should have something working, even if rough." 45 min: "Fifteen minutes left. Start wrapping toward something demo-able." 55 min: "Five minutes. Finish what you're on. Don't start new features." Common interventions: Situation What to say Can't decide what to build "What's the last thing that annoyed you? Build the fix." Scope creeping "What do you need for your demo? Build that first." Claude Code stuck/looping "Try `/clear` and a more specific request." Finished early "What would make it production-ready? Tests? Error handling?" Frustrated "What's blocking you? Let's fix one thing." You have the tools. You know how to manage context. Remember: Break big tasks into scoped requests Use `/clear` when switching focus Guide Claude Code when it goes off track Verify as you go, not just at the end |
-| ----- |
+<div class="instructor-note">
+<div class="instructor-note-header">
+<span class="instructor-note-icon">👨‍🏫</span>
+<span class="instructor-note-title">Instructor Note</span>
+<span class="instructor-note-timing">⏱ 60 minutes</span>
+</div>
+<div class="instructor-note-content">
+
+**Start the clock:** "Alright, build time starts now. I'll give time checks."
+
+**Your role during build:**
+- Circulate constantly. Don't sit down.
+- Unblock quickly. If someone is stuck for more than 3–5 minutes, intervene.
+- Keep interventions short. Ask what's blocking them, suggest `/clear` or a different approach, move on.
+- Don't demo for the room. Don't give tips to everyone. Let them work.
+
+**Time checks (announce to room):**
+- **15 min:** "You're about a quarter through. If you haven't started coding, start now."
+- **30 min:** "Halfway point. You should have something working, even if rough."
+- **45 min:** "Fifteen minutes left. Start wrapping toward something demo-able."
+- **55 min:** "Five minutes. Finish what you're on. Don't start new features."
+
+**Common interventions:**
+
+| Situation | What to say |
+| ----- | ----- |
+| Can't decide what to build | "What's the last thing that annoyed you? Build the fix." |
+| Scope creeping | "What do you need for your demo? Build that first." |
+| Claude Code stuck/looping | "Try `/clear` and a more specific request." |
+| Finished early | "What would make it production-ready? Tests? Error handling?" |
+| Frustrated | "What's blocking you? Let's fix one thing." |
+
+</div>
+</div>
 
 ![Coding - where to start for people without a technical background][image2]
 
@@ -138,8 +235,33 @@ Let’s start building\!
 
 ## **Demo**
 
-| Instructor Note ⏱ Timing: 15–20 minutes Transition: "Build time is up. Save your work. Time for demos." Format: 2–3 minutes per person. Use a visible timer. Be firm on time. Order: Ask for volunteers first. If needed, go around the room. Facilitation: Quick acknowledgment between demos, then move on. If demo doesn't work: "Show us what you got. Where did it break?" If nervous: "Just show us. Everyone wants to see." For large groups (15+): Aim for 8–10 demos Or break into small groups of 5–6 and demo within groups After all demos: "You built something real today. That's the point of this lesson." |
-| :---- |
+<div class="instructor-note">
+<div class="instructor-note-header">
+<span class="instructor-note-icon">👨‍🏫</span>
+<span class="instructor-note-title">Instructor Note</span>
+<span class="instructor-note-timing">⏱ 15–20 minutes</span>
+</div>
+<div class="instructor-note-content">
+
+**Transition:** "Build time is up. Save your work. Time for demos."
+
+**Format:** 2–3 minutes per person. Use a visible timer. Be firm on time.
+
+**Order:** Ask for volunteers first. If needed, go around the room.
+
+**Facilitation:**
+- Quick acknowledgment between demos, then move on.
+- If demo doesn't work: "Show us what you got. Where did it break?"
+- If nervous: "Just show us. Everyone wants to see."
+
+**For large groups (15+):**
+- Aim for 8–10 demos
+- Or break into small groups of 5–6 and demo within groups
+
+**After all demos:** "You built something real today. That's the point of this lesson."
+
+</div>
+</div>
 
 At the end of the build time, you'll have 2 \- 3 minutes to show what you built.
 
@@ -158,8 +280,20 @@ The point is shipping something real with Claude Code. That's the accomplishment
 
 ## **Submission**
 
-| Instructor Note ⏱ Timing: 2–3 minutes Provide submission link/instructions based on your setup. Say: "Your submission is your knowledge check for this lesson. Link to your code, brief description, and one thing you learned." |
-| :---- |
+<div class="instructor-note">
+<div class="instructor-note-header">
+<span class="instructor-note-icon">👨‍🏫</span>
+<span class="instructor-note-title">Instructor Note</span>
+<span class="instructor-note-timing">⏱ 2–3 minutes</span>
+</div>
+<div class="instructor-note-content">
+
+Provide submission link/instructions based on your setup.
+
+**Say:** "Your submission is your knowledge check for this lesson. Link to your code, brief description, and one thing you learned."
+
+</div>
+</div>
 
 Your submission is your knowledge check for this lesson.
 

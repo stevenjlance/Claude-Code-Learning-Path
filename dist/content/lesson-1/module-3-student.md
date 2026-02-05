@@ -45,7 +45,7 @@ Context accumulation helps when tasks are related. However, it hurts when you sh
 
 When you start Claude Code in a project directory, it doesn't immediately read every file. Instead, it:
 
-1. **Scans the project structure.** Claude Code reads directory names, file names, and common configuration files (like `package.json`, `tsconfig.json`, `.gitignore`) to understand what kind of project this is.  
+1. **Scans the project structure.** Claude Code reads directory names, file names, and common configuration files (like package.json, tsconfig.json, .gitignore) to understand what kind of project this is.  
 2. **Reads files on demand.** When you ask about something, Claude Code reads the relevant files. If those files import other files, it follows the chain.  
 3. **Accumulates context.** As you work, Claude Code remembers what it has read. This accumulated understanding is called the **context window**.  
 4. **Hits limits.** The context window has a size limit. When you've been working for a while, older information may get pushed out, or Claude Code may start to slow down.
@@ -54,7 +54,7 @@ This is fundamentally different from a traditional IDE. Your IDE indexes everyth
 
 ## **Context in Action**
 
-Return to your demo project that we have used in the last two sections. If you're still in Claude Code, use `/clear` to start fresh. Then navigate back:
+Return to your demo project that we have used in the last two sections. If you're still in Claude Code, use /clear to start fresh. Then navigate back:
 
 ```shell
 cd claude-code-starter
@@ -73,8 +73,8 @@ Ask Claude Code to explain a function:
 
 Watch the output. Claude Code will:
 
-* Read `cart.js`  
-* Discover imports for `taxRates.js` and `discounts.js`  
+* Read cart.js  
+* Discover imports for taxRates.js and discounts.js  
 * Read those files  
 * Synthesize an explanation
 
@@ -84,11 +84,11 @@ Now ask a follow-up:
 > what tax rate applies to California orders?
 ```
 
-Claude Code answers immediately. It already has `taxRates.js` in context from your first question.
+Claude Code answers immediately. It already has taxRates.js in context from your first question.
 
 ### **Experiment 2: Fresh context vs. accumulated context**
 
-Use `/clear` to wipe context. Ask the same California question:
+Use /clear to wipe context. Ask the same California question:
 
 ```shell
 /clear 
@@ -145,7 +145,7 @@ How you phrase a request affects how much context Claude Code needs to build.
 > add a method to Cart that returns the subtotal before tax
 ```
 
-Claude Code reads `cart.js`, understands the class, adds the method. Minimal context.
+Claude Code reads cart.js, understands the class, adds the method. Minimal context.
 
 **Vague \= wasted context:**
 
@@ -190,7 +190,7 @@ Run your first request. Before running the second request, consider:
 
 * Did Claude Code read the files it will need for request 2?  
 * Is context accumulation helping (Claude Code already understands the area) or hurting (carrying assumptions you need to override)?  
-* Should you `/compact` or `/clear` before continuing?
+* Should you /compact or /clear before continuing?
 
 Make a deliberate choice, then run request 2\. Repeat for request 3\.
 
@@ -202,14 +202,14 @@ Your multi-step task should now be complete. Verify it works:
 * Manually test the feature  
 * Review the changes Claude Code made
 
-If something isn't right, use what you learned: guide Claude Code with specific feedback, or `/clear` and try a different approach.
+If something isn't right, use what you learned: guide Claude Code with specific feedback, or /clear and try a different approach.
 
 ### **Reflect**
 
 When you've completed your task, note:
 
 * How many files did Claude Code touch across all requests?  
-* Did you use `/compact` or `/clear` between steps? Why or why not?  
+* Did you use /compact or /clear between steps? Why or why not?  
 * What would you do differently next time?
 
 ## **When Context Works Against You**
@@ -226,27 +226,17 @@ Look for the following warning signs that you need to clear context:
 * Responses include details from earlier tasks that don't apply  
 * Claude Code seems to be solving a different problem than you asked about
 
-When in doubt, `/clear` and start fresh. It's faster than debugging a confused context.
+When in doubt, /clear and start fresh. It's faster than debugging a confused context.
 
 ## **Knowledge Check**
 
 1. When you start Claude Code in a new project, does it immediately read all files? Why or why not?
 
-2. What's the difference between `/compact` and `/clear`?
+2. What's the difference between /compact and /clear?
 
-3. In your Experiment 1, what files did Claude Code read to answer the question about `calculateTotal`?
+3. In your Experiment 1, what files did Claude Code read to answer the question about calculateTotal?
 
-4. Describe the multi-step task you completed. How did you decide whether to `/compact`, `/clear`, or continue with accumulated context between steps?
-
-### **Answers**
-
-1. No. Claude Code scans the project structure but reads files on demand as you ask questions. This keeps context focused on what's relevant to your current task.
-
-2. `/compact` summarizes the conversation to reduce token usage while preserving key information. `/clear` wipes context entirely, giving you a fresh start. Use `/compact` when you want to continue but free up space; use `/clear` when starting a new, unrelated task.
-
-3. Claude Code read `cart.js` first, then followed imports to read `taxRates.js` and `discounts.js`. It needed all three to explain how `calculateTotal` handles discounts and tax.
-
-4. Answers will vary. Key considerations: If the next step builds directly on the previous one (same files, same concepts), accumulated context helps. If the next step is in a different area or requires a fresh perspective, `/clear` may be better. `/compact` is useful when context is helpful but getting large.
+4. Describe the multi-step task you completed. How did you decide whether to /compact, /clear, or continue with accumulated context between steps?
 
 ---
 
@@ -254,7 +244,7 @@ When in doubt, `/clear` and start fresh. It's faster than debugging a confused c
 
 You completed a multi-step change on your own codebase, practicing context management along the way.
 
-Claude Code builds context by reading files on demand and following imports. This accumulated context makes follow-up questions faster but can also carry stale assumptions. Use `/cost` to check context size, `/compact` to reduce it while preserving information, and `/clear` to start fresh.
+Claude Code builds context by reading files on demand and following imports. This accumulated context makes follow-up questions faster but can also carry stale assumptions. Use /cost to check context size, /compact to reduce it while preserving information, and /clear to start fresh.
 
 For multi-step tasks, break work into scoped requests and make deliberate choices about context between steps. Sometimes accumulated context helps; sometimes a fresh start is faster.
 

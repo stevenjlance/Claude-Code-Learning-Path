@@ -59,9 +59,9 @@ node --version # Should output something like v24.1.0
 
 If you don't have Node, [download the latest version](https://nodejs.org/en/download) before proceeding.
 
-**Your task:** There are some issues with the codebase and he would like you to add unit tests for the `calculateTotal` function. You have 5 minutes to ship this.
+**Your task:** There are some issues with the codebase and he would like you to add unit tests for the calculateTotal function. You have 5 minutes to ship this.
 
-Open `src/cart.js`. This module handles shopping cart calculations for an e-commerce app. Use whatever tools and workflow you normally use. ChatGPT, Copilot, manual writing—whatever gets the job done.
+Open src/cart.js. This module handles shopping cart calculations for an e-commerce app. Use whatever tools and workflow you normally use. ChatGPT, Copilot, manual writing—whatever gets the job done.
 
 *Timer starts now.*
 
@@ -105,7 +105,7 @@ For many developers, the process looks something like this:
 5. Run the tests. They fail because of an import path issue.
 6. Copy the error back to ChatGPT
 7. Get a fix, copy it back
-8. Tests still fail. The mock is wrong because ChatGPT didn't see the actual `taxRates.js` module.
+8. Tests still fail. The mock is wrong because ChatGPT didn't see the actual taxRates.js module.
 9. Copy the dependency file...
 10. Repeat until it works
 
@@ -123,7 +123,7 @@ Ask students to share out their process. Gather some common insights and focus o
 
 Read through the 10 steps quickly. They'll recognize themselves.
 
-**Say:** "You're the courier. The AI is working blind—it can't see your `taxRates.js` or `discounts.js` files, so it guesses. And it guesses wrong."
+**Say:** "You're the courier. The AI is working blind—it can't see your taxRates.js or discounts.js files, so it guesses. And it guesses wrong."
 
 </div>
 </div>
@@ -353,7 +353,7 @@ In the next module, you'll install Claude Code and use it to make your first cha
 
 **Setup:**
 
-* Terminal open in the `claude-code-starter` directory
+* Terminal open in the claude-code-starter directory
 * Claude Code installed and authenticated
 * Clean state (no tests written yet)
 
@@ -389,8 +389,8 @@ In the next module, you'll install Claude Code and use it to make your first cha
 
 | Problem | Likely Cause | Resolution |
 | ----- | ----- | ----- |
-| `git clone` fails | Venue wifi blocks git, or repo URL wrong | Have USB drive with zip file |
-| `npm install` hangs | Slow network | Provide pre-installed node\_modules as zip |
+| git clone fails | Venue wifi blocks git, or repo URL wrong | Have USB drive with zip file |
+| npm install hangs | Slow network | Provide pre-installed node\_modules as zip |
 | Learner finishes in 2 minutes | Wrote trivial tests or already knows the pattern | Ask: "Do your tests cover the discount tiers? The state tax edge cases?" |
 | Learner gives up immediately | Unfamiliar with Jest or testing | Pair them with someone experienced—the point is the process, not the output |
 
@@ -474,10 +474,10 @@ cd claude-code-starter && npm install && npm test
 # Verify completion
 ```
 
-[image3]: /content/lesson-1/images/module-1-instructor-image3.png
+[image3]: /content/lesson-1/images/module-1-instructor-image3.gif
 
-[image4]: /content/lesson-1/images/module-1-instructor-image4.png
+[image4]: /content/lesson-1/images/module-1-instructor-image4.gif
 
-[image5]: /content/lesson-1/images/module-1-instructor-image5.png
+[image5]: /content/lesson-1/images/module-1-instructor-image5.gif
 
-[image6]: /content/lesson-1/images/module-1-instructor-image6.png
+[image6]: /content/lesson-1/images/module-1-instructor-image6.gif

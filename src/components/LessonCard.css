@@ -1,6 +1,6 @@
 .lesson-card {
-  background: linear-gradient(145deg, #1e1e32 0%, #1a1a2e 100%);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
   border-radius: 16px;
   padding: 1.75rem;
   display: flex;
@@ -9,9 +9,9 @@
 }
 
 .lesson-card:hover {
-  border-color: rgba(212, 165, 116, 0.3);
+  border-color: var(--border-hover);
   transform: translateY(-4px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 12px 40px rgba(20, 20, 19, 0.08);
 }
 
 .lesson-header {
@@ -22,54 +22,54 @@
 }
 
 .lesson-number {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #d4a574;
+  color: var(--accent);
 }
 
 .lesson-modules-count {
-  font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.8rem;
+  color: var(--text-faint);
 }
 
 .lesson-title {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--text-primary);
   margin: 0 0 0.75rem 0;
   line-height: 1.3;
 }
 
 .lesson-description {
-  font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.05rem;
+  color: var(--text-muted);
   line-height: 1.6;
   margin: 0 0 1.25rem 0;
 }
 
 .lesson-artifact {
-  background: rgba(212, 165, 116, 0.08);
-  border: 1px solid rgba(212, 165, 116, 0.2);
+  background: rgba(217, 119, 87, 0.06);
+  border: 1px solid rgba(217, 119, 87, 0.15);
   border-radius: 8px;
   padding: 0.875rem 1rem;
   margin-bottom: 1.5rem;
 }
 
 .artifact-label {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #d4a574;
+  color: var(--accent);
   display: block;
   margin-bottom: 0.35rem;
 }
 
 .artifact-value {
-  font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+  color: var(--text-secondary);
   line-height: 1.4;
 }
 
@@ -79,11 +79,11 @@
 }
 
 .modules-title {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: rgba(255, 255, 255, 0.4);
+  color: var(--text-faint);
   margin: 0 0 0.75rem 0;
 }
 
@@ -105,7 +105,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.625rem 0.875rem;
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--bg-secondary);
   border-radius: 8px;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -113,12 +113,12 @@
 }
 
 .module-link:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--bg-tertiary);
 }
 
 .module-name {
-  font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
+  color: var(--text-secondary);
   flex: 1;
   min-width: 0;
 }
@@ -131,7 +131,7 @@
 }
 
 .volatility-badge {
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   font-weight: 600;
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
@@ -140,8 +140,8 @@
 }
 
 .module-duration {
-  font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.8rem;
+  color: var(--text-faint);
   white-space: nowrap;
 }
 
@@ -151,17 +151,17 @@
   justify-content: center;
   gap: 0.5rem;
   padding: 0.875rem 1.5rem;
-  background: linear-gradient(135deg, #d4a574 0%, #c4956a 100%);
-  color: #1a1a2e;
-  font-weight: 600;
-  font-size: 0.9rem;
+  background: var(--bg-dark);
+  color: var(--text-on-dark);
+  font-weight: 500;
+  font-size: 1rem;
   text-decoration: none;
   border-radius: 8px;
   transition: all 0.2s ease;
 }
 
 .lesson-start-btn:hover {
-  background: linear-gradient(135deg, #e4b584 0%, #d4a574 100%);
+  background: var(--text-secondary);
   transform: translateX(2px);
 }
 
