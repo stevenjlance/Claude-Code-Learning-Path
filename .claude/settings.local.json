@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npx --yes create-vite@latest:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(wc:*)",
+      "Bash(npm run build:*)",
+      "Bash(lsof:*)",
+      "Bash(node:*)",
+      "Bash(ls:*)",
+      "Bash(xxd:*)",
+      "Bash(grep:*)"
+    ]
+  }
+}
