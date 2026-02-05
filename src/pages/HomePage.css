@@ -238,12 +238,17 @@
 }
 
 .outcome-icon {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.outcome-icon svg {
+  width: 32px;
+  height: 32px;
+  color: var(--accent);
 }
 
 .outcome-card h3 {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--text-primary);
   margin: 0 0 0.75rem 0;

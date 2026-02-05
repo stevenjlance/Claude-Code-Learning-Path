@@ -79,22 +79,42 @@ function HomePage() {
           </p>
           <div className="outcomes-grid">
             <div className="outcome-card">
-              <div className="outcome-icon">🚀</div>
+              <div className="outcome-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                </svg>
+              </div>
               <h3>Ship Features</h3>
               <p>Build and deploy real features in your own codebase from day one</p>
             </div>
             <div className="outcome-card">
-              <div className="outcome-icon">🧪</div>
+              <div className="outcome-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+                </svg>
+              </div>
               <h3>Test Suites</h3>
               <p>Create comprehensive test coverage using TDD workflows</p>
             </div>
             <div className="outcome-card">
-              <div className="outcome-icon">⚙️</div>
+              <div className="outcome-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="16 18 22 12 16 6"/>
+                  <polyline points="8 6 2 12 8 18"/>
+                  <line x1="12" y1="2" x2="12" y2="22" opacity="0"/>
+                </svg>
+              </div>
               <h3>Custom Workflows</h3>
               <p>Design slash commands and configurations tailored to your needs</p>
             </div>
             <div className="outcome-card">
-              <div className="outcome-icon">🤖</div>
+              <div className="outcome-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="3" y="11" width="18" height="10" rx="2"/>
+                  <circle cx="12" cy="5" r="3"/>
+                  <path d="M8 16h.01M12 16h.01M16 16h.01"/>
+                </svg>
+              </div>
               <h3>Autonomous Agents</h3>
               <p>Build agents that work independently on defined tasks</p>
             </div>

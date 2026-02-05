@@ -39,7 +39,7 @@ function PhilosophyPage() {
             <h2>Core Principles</h2>
             <div className="principles-grid">
               <div className="principle-card">
-                <div className="principle-icon">🧭</div>
+                <span className="principle-number">01</span>
                 <h3>Guide on the Side, Not Sage on the Stage</h3>
                 <p>
                   The most impactful learning comes from doing. Learners hit the problem before they get a solution.
@@ -48,7 +48,7 @@ function PhilosophyPage() {
               </div>
 
               <div className="principle-card">
-                <div className="principle-icon">🛠️</div>
+                <span className="principle-number">02</span>
                 <h3>Build Something You Can Use</h3>
                 <p>
                   Every lesson terminates in a product learners can take away and apply immediately.
@@ -57,7 +57,7 @@ function PhilosophyPage() {
               </div>
 
               <div className="principle-card">
-                <div className="principle-icon">🎯</div>
+                <span className="principle-number">03</span>
                 <h3>Artifacts Over Syntax</h3>
                 <p>
                   Every module states what you'll walk away with: a working feature, a multi-step change, a demo.

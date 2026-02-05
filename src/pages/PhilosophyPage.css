@@ -108,9 +108,14 @@
   box-shadow: 0 12px 40px rgba(20, 20, 19, 0.08);
 }
 
-.principle-icon {
+.principle-number {
+  display: block;
   font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.025em;
   margin-bottom: 1rem;
+  line-height: 1;
 }
 
 .principle-card h3 {
