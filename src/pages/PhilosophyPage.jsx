@@ -157,6 +157,50 @@ function PhilosophyPage() {
             </div>
           </div>
 
+          {/* Alignment to Anthropic Values */}
+          <div className="philosophy-section">
+            <h2>Aligned to Anthropic's Values</h2>
+            <p className="philosophy-text">
+              This training system reflects{' '}
+              <a href="https://www.anthropic.com/company" target="_blank" rel="noopener noreferrer">
+                Anthropic's core values
+              </a>{' '}
+              in its design.
+            </p>
+            <div className="values-grid">
+              <div className="value-card">
+                <span className="value-number">01</span>
+                <h3>Building Safer Systems</h3>
+                <p>
+                  Effective training is safety infrastructure. Developers who understand how to evaluate
+                  Claude Code's output, recognize when it's wrong, and know when not to use AI assistance
+                  are safer practitioners. This curriculum teaches output evaluation and error recovery as
+                  core skills. We measure success not just by what learners build, but by the judgment they
+                  demonstrate.
+                </p>
+              </div>
+              <div className="value-card">
+                <span className="value-number">02</span>
+                <h3>Safety as a Science</h3>
+                <p>
+                  We treat training quality as a measurable, improvable system. Content is tagged by
+                  volatility to prioritize maintenance. Trainers document failure points so institutional
+                  knowledge accumulates. Feedback flows from delivery back to content. This is a system
+                  that is designed to learn and change as the ecosystem changes.
+                </p>
+              </div>
+              <div className="value-card">
+                <span className="value-number">03</span>
+                <h3>Contributing to a Broader Ecosystem</h3>
+                <p>
+                  The train-the-trainer model acknowledges that Anthropic cannot, and should not, be the
+                  only voice teaching developers to use AI tools well. By enabling others to teach
+                  effectively, we contribute to industry-wide AI literacy rather than gatekeeping expertise.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* CTA */}
           <div className="philosophy-cta">
             <h2>Ready to start?</h2>

@@ -51,6 +51,17 @@
   margin: 0 0 1.5rem 0;
 }
 
+.philosophy-text a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.2s;
+}
+
+.philosophy-text a:hover {
+  color: var(--accent-deep);
+}
+
 /* Persona Card */
 .persona-card {
   background: var(--bg-card);
@@ -257,6 +268,50 @@
   color: var(--text-muted);
 }
 
+/* Values Section */
+.values-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.value-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.value-card:hover {
+  border-color: var(--border-hover);
+  box-shadow: 0 8px 30px rgba(20, 20, 19, 0.06);
+}
+
+.value-number {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.025em;
+  margin-bottom: 0.75rem;
+  line-height: 1;
+}
+
+.value-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 0.75rem 0;
+}
+
+.value-card p {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
 /* CTA */
 .philosophy-cta {
   text-align: center;
@@ -274,7 +329,8 @@
 /* Responsive */
 @media (max-width: 900px) {
   .principles-grid,
-  .volatility-grid {
+  .volatility-grid,
+  .values-grid {
     grid-template-columns: 1fr;
   }
 
